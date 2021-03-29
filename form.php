@@ -18,7 +18,7 @@
             </div>
             <div>
                 <label for="mail">e-mail :</label>
-                <input type="email" id="mail" name="user_mail" required>
+                <input type="email" id="mail" name="user_mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
             </div>
             <div>
                 <label for="phone">Téléphone :</label>
@@ -44,3 +44,4 @@
         </form>
     </body>
 </html>
+
